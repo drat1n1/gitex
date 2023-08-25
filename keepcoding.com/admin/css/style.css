@@ -1,81 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-
-p{
+p {
   margin-bottom: 0;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0;
 }
-dl, ol, ul {
+dl,
+ol,
+ul {
   margin-top: 0;
   margin-bottom: 0;
 }
-ol, ul {
+ol,
+ul {
   padding-left: 0;
 }
 
-body{
-  font-family: 'DM Serif Display', serif;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Noto Sans KR', sans-serif;
-  background-color: #F2F3F5;
+body {
+  font-family: "DM Serif Display", serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #f2f3f5;
   font-size: 16px;
 }
-.nav_top > div{
+.nav_top > div {
   gap: 135px;
 }
-.user img{
+.user img {
   width: 30px;
   height: 30px;
   object-fit: cover;
 }
-.logo a{
+.logo a {
   display: block;
   text-indent: -9999rem;
-  background-image: url('/img/logo.png');
+  background-image: url("/keepcoding.com/admin/img/logo.png");
   background-size: cover;
   width: 130px;
   height: 25px;
   background-repeat: no-repeat;
 }
-.nav_top{
+.nav_top {
   background-color: #fff;
   padding: 20px 40px;
   border-bottom: 0.3px silver solid;
-  position:fixed;
-  left:0;
-  right:0;
-  top:0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 .btn-outline-success {
-  --bs-btn-color:  #4E75FF;
-  --bs-btn-border-color: #4E75FF;
+  --bs-btn-color: #4e75ff;
+  --bs-btn-border-color: #4e75ff;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #4E75FF;
-  --bs-btn-hover-border-color: #4E75FF;
-  --bs-btn-focus-shadow-rgb: 25,135,84;
+  --bs-btn-hover-bg: #4e75ff;
+  --bs-btn-hover-border-color: #4e75ff;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #4E75FF;
-  --bs-btn-active-border-color: #4E75FF;
+  --bs-btn-active-bg: #4e75ff;
+  --bs-btn-active-border-color: #4e75ff;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #4E75FF;
+  --bs-btn-disabled-color: #4e75ff;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #4E75FF;
+  --bs-btn-disabled-border-color: #4e75ff;
   --bs-gradient: none;
 }
-.content{
+.content {
   height: 6000px;
   padding: 147px 300px 68px 388px;
   box-sizing: content-box;
   /* background-color: pink; */
 }
-.nav_side{
+.nav_side {
   position: fixed;
   width: 250px;
-  top:79px;
-  bottom:0;
+  top: 79px;
+  bottom: 0;
   left: 0px;
   display: flex;
   justify-content: space-between;
@@ -84,27 +97,27 @@ body{
   background-color: #fff;
   border-right: 0.3px silver solid;
 }
-.nav_side ul{
+.nav_side ul {
   width: 100%;
 }
-.nav_side > ul > li{
+.nav_side > ul > li {
   padding: 30px 37px;
   border-bottom: 0.3px silver solid;
 }
 /* .nav_side > ul > li:last-child{
   border-bottom: none;
 } */
-.nav-link{
+.nav-link {
   padding: 0;
 }
-.nav_side > ul > li ul{
+.nav_side > ul > li ul {
   display: flex;
   flex-direction: column;
-  gap:20px;
+  gap: 20px;
 }
-.sell_report{
+.sell_report {
   width: 100%;
-  gap:30px;
+  gap: 30px;
 }
 .bd-callout {
   width: 100%;
@@ -113,42 +126,44 @@ body{
   margin-bottom: 1.25rem;
   color: var(--bd-callout-color, inherit);
   background-color: #fff;
-  border-left: 0.25rem solid var(--bd-callout-border, #4E75FF);
+  border-left: 0.25rem solid var(--bd-callout-border, #4e75ff);
 }
-.member{
-  width:100%;
+.member {
+  width: 100%;
 }
-.kcard{
+.kcard {
   width: 600px;
   /* height: 144px; */
-  padding:47px;
+  padding: 47px;
   background-color: #fff;
   border-radius: 10px;
   gap: 20px;
-  color:#4E75FF;
+  color: #4e75ff;
 }
-.kcard h6{
+.kcard h6 {
   margin-bottom: 30px;
 }
-.kcard_text span{
+.kcard_text span {
   display: block;
 }
-.rate{
+.rate {
   height: 25px;
   position: relative;
-  width:100%;
-  border:2px solid #ccc;
+  width: 100%;
+  border: 2px solid #ccc;
   border-radius: 12.5px;
 }
-.rate .bar{
+.rate .bar {
   position: absolute;
-  left: 0;top: 0;bottom: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
   width: 0;
-  background: #4E75FF;
+  background: #4e75ff;
 }
-.ratebar{
+.ratebar {
   gap: 30px;
 }
-.ratebar.front{
+.ratebar.front {
   padding-bottom: 20px;
 }
